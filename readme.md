@@ -31,3 +31,20 @@ cd into the folder youve cloned
    * type a message for Git to highlight whats been change: 'readme updated with instructions'
    * stage commit by clicking + icon in changes
    * then click dropdown arrow to 'commit and push'
+
+   ## Version numbers of applications 
+
+    * 1.0.0
+    * THe far right 0.0.1 <- minor change to application>
+     * 0.0.2 <- a mior change from 0.01>
+    * the middle number 0.1.0 <- bigger change >
+    * far lef 1.0.0 <- biggest change/release of application/program/software tool>
+
+    ## Branching 
+
+    *we can use branching to allow engineers to try different solutions without causing issues on the main codebase
+
+    ````
+    git branch example
+    git checkout example
+    ``````
