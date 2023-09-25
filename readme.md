@@ -1,7 +1,7 @@
 # Hello Git
 
-* git clone url.com
-cd into the folder youve cloned
+* git clone (url.com)
+* cd . into the folder youve cloned
 * git status 
 * git add readme.md
 * git commit -m "Readme file updaated"
@@ -55,4 +55,4 @@ cd into the folder youve cloned
 * git branch -D example // this will force the branch to delete even if there are unmerged changes
 
 ## Going back on previous commits
-* git checkout -b old-commit (commit hash)
+* git checkout -b old-commit (commit hash number)
