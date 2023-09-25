@@ -1,0 +1,12 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "description": "* git clone url.com\r cd into the folder youve cloned\r * git status \r * git add readme.md\r * git commit -m \"Readme file updaated\"\r * git remote add origin https://github.com/cmacharia13/Test-App.git // already cloned repo we dont need origin but can do it just be to safe.\r * git push -u origin main",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
