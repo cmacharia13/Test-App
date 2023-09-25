@@ -31,3 +31,25 @@ cd into the folder youve cloned
    * type a message for Git to highlight whats been change: 'readme updated with instructions'
    * stage commit by clicking + icon in changes
    * then click dropdown arrow to 'commit and push'
+
+## Version Numbers of Applications
+* 1.0.0
+* The far right 0.0.1 <- Is a minor change to the applcation
+* 0.0.2 <- A minor change from 0.0.1
+* The middle number 0.1.0 <- is a bigger change but not a drastic move
+* The first number 2.0.0 <- is a major release of an application / programme / software tool
+* https://support.apple.com/en-gb/HT213407#1601 for reference
+
+## Branching
+* We can use brnaching to allow engineers to try different solutions without causing issues on the main codebase
+* git branch example
+* git checkout example
+
+* To merge with main, we need to do the following:
+* git checkout main
+* git pull origin main // to get the latest from main
+* git merge example
+* git push origin main
+* Sometimes, we don't need to keep the test branch alive, so we can delete the branch:
+* git branch -d example
+* git branch -D example // this will force the branch to delete even if there are unmerged changes
