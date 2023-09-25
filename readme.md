@@ -53,3 +53,6 @@ cd into the folder youve cloned
 * Sometimes, we don't need to keep the test branch alive, so we can delete the branch:
 * git branch -d example
 * git branch -D example // this will force the branch to delete even if there are unmerged changes
+
+## Going back on previous commits
+* git checkout -b old-commit (commit hash)
