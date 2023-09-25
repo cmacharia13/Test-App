@@ -29,5 +29,5 @@ cd into the folder youve cloned
   * shows changes you have made in application
  * to commmit the change 
    * type a message for Git to highlight whats been change: 'readme updated with instructions'
-   * stage commit by clicking + icon in stage/changes
+   * stage commit by clicking + icon in changes
    * then click dropdown arrow to 'commit and push'
