@@ -48,3 +48,16 @@ cd into the folder youve cloned
     git branch example
     git checkout example
     ``````
+    * to merge with main
+    ``
+    git checkout main
+    git pull origin main
+    git merge example
+    git push origin main
+    ```
+    
+     * dont always need branch alive so can delete
+     ``
+      git branch -d example
+      git branch -D //deletes even with unmerged changes
+      ``
